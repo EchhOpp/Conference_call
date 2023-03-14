@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.3.0-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +15,18 @@
 <body>
     <div id="wapper">
         <div id="left__nav">
-            <img src="./img/logo.png" alt="logo" id="left__nav-logo">
+            <img src="./assets/img/logo.png" alt="logo" id="left__nav-logo">
             <div id="left__nav-subnav">
                 <ul id="left__nav-subnav-gen">
                     <li class="left__nav-subnav-gen--item"><a href="#1"><img src="./assets/img/home.png" alt="home"></a></li>
-                    <li class="left__nav-subnav-gen--item"><a href="#2"><img src="./assets/img/chatting.png" alt="chatting"></a></li>
+                    <li class="left__nav-subnav-gen--item" id="item-qtyti">
+                        <a href="#2"><img src="./assets/img/chatting.png" alt="chatting"></a>
+                        <span id="qtyti">
+                            N
+                        </span>
+                    </li>
                     <li class="left__nav-subnav-gen--item"><a href="#3"><img src="./assets/img/calender.png" alt="calender"></a></li>
-                    <li class="left__nav-subnav-gen--item"><a href="#4"><img src="./assets/img/cam.png" alt="cam"></a></li>
+                    <li class="left__nav-subnav-gen--item"><a href="#4"><i class="fa-solid fa-video"></i></a></li>
                     <li class="left__nav-subnav-gen--item"><a href="#5"><img src="./assets/img/user.png" alt=""></a></li>
                 </ul>
             </div>
@@ -54,12 +60,49 @@
             </div>
             <div id="center__container-imglive">
                 <div id="center__container-imglive--big">
-                    <img src="./assets/img/img_big.png" alt="img_big">
-                    <div id="center__container-imglive-name">
-                        <i class="fa-solid fa-circle"></i>
+                    <img src="./assets/img/img_big.png" alt="img_big" id="img_big">
+                    <div class="center__container-imglive-name">
+                        <i class="fa-solid fa-circle icon_circle"></i>
                         Benjamin Crawford
                     </div>
-                    <img src="./assets/img/mic_color.png" alt="mic_color">
+                    <img src="./assets/img/mic_color.png" alt="mic_color" id="iconmic_color">
+                </div>
+                <div class="center__container-imglive--small">
+                        <div class="live-col3">
+                                <img src="./assets/img/img2.png" alt="img2_live" class="img">
+                                <div class="center__container-imglive--small-name">
+                                    <i class="fa-solid fa-circle icon_circle"></i>
+                                    Christian Scott
+                                </div>
+                                <img src="./assets/img/mic_grey_color.png" alt="mic_grey_color" class="mic_grey_color">
+                        </div>
+                        <div class="live-col3">
+                            <img src="./assets/img/img1.png" alt="img1_live" class="img">
+                            <div class="center__container-imglive--small-name">
+                                <i class="fa-solid fa-circle icon_circle"></i>
+                                Deborah Chu
+                            </div>
+                            <i id="off_mic" class="mic_grey_color fa-solid fa-microphone-slash"></i>
+                    </div>
+                    <div class="live-col3">
+                        <img src="./assets/img/img.png" alt="img_live" class="img">
+                        <div class="center__container-imglive--small-name">
+                            <i class="fa-solid fa-circle icon_circle"></i>
+                            Jordan Nieves
+                        </div>
+                        <img src="./assets/img/mic_grey_color.png" alt="mic_grey_color" class="mic_grey_color">
+                </div>
+                </div>
+                <div id="center__container-imglive--footer">
+                    <img src="./assets/img/mic_grey_color.png" alt="mic_grey_color">
+                    <img src="./assets/img/cam_color.png" alt="cam_color">
+                    <img src="./assets/img/speaker_grey_color.png" alt="speaker_grey_color">
+                    <p id="center__container-imglive--end">
+                        End meeting
+                    </p>
+                    <img src="./assets/img/Button 2179.png" alt="Button">
+                    <img src="./assets/img/share.png" alt="share">
+                    <img src="./assets/img/t.png" alt="">
                 </div>
             </div>
         </div>
