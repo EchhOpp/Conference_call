@@ -25,7 +25,7 @@ html{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 80px;
+    width: 5.555556%;
     height: 900px;
     border-right: 1px solid #d6d6d4;
 }
@@ -81,7 +81,7 @@ html{
 }
 
  #center__container {
-    width: 920px;
+    width: 63.888889%;
     padding: 42px 42px 0 42px;
     border-right: 1px solid #d6d6d4 ;
     display: flex;
@@ -164,6 +164,7 @@ html{
 }
 
 #img_big {
+    width: 100%;
     border-radius: 8px;
 }
 
@@ -195,6 +196,7 @@ html{
 
 .center__container-imglive--small {
     display: flex;
+    flex-wrap:  wrap;
     justify-content: space-between;
     margin: 18px 0;
 }
@@ -240,6 +242,7 @@ html{
 
 #center__container-imglive--footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -255,4 +258,15 @@ html{
     font-size: 15px;
     color: #fff;
     background-color: #f22128;
+}
+
+#right__comment {
+    width: 30.555555%;s
+}
+
+#right__comment-participants--title{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
 }
